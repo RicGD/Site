@@ -181,7 +181,7 @@ ul li {
 
 }
 
-
+ /* Div para acessar o Design de baixa fidelidade */
 .acessarpdf a {
     background-color: white;
     border: 3px solid rgb(0, 0, 0);
@@ -195,6 +195,7 @@ ul li {
 
 }
 
+/* Div para acessar o Design de média de fidelidade */
 .acessarpdf2 a {
     background-color: white;
     border: 3px solid rgb(0, 0, 0);
@@ -207,3 +208,27 @@ ul li {
     padding: 10px 20px;
 
 }
+
+
+/* Div para a area onde vai ficar as entradas*/
+.areaInput {
+    border: 2px solid beige;
+    position: fixed;
+    width: 260px;
+    height: 250px;
+    left: 150px;
+    background-color: transparent;
+}
+
+
+/* Estilizando o botao de enviar */
+.enviar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
