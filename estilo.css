@@ -87,7 +87,7 @@ ul li {
     height: 35px;
     width: 300px;
     color: rgb(240, 167, 10);
-    background-image: url(Image/background-code.jpeg);
+    background-image: url(Image/background-black.jpeg);
     background-size: cover;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
@@ -116,7 +116,7 @@ ul li {
     width: 300px;
     position: fixed;
     left: 540px;
-    background-image: url(Image/background-code.jpeg);
+    background-image: url(Image/background-black.jpeg);
     background-size: cover;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
@@ -137,19 +137,22 @@ ul li {
     text-align:left;
 }
 
+/* Div para colocar a formação de informatica*/
 .q3 {
     border: 3px solid black;
     height: 35px;
     width: 300px;
     position: fixed;
     left: 900px;
-    background-image: url(Image/background-code.jpeg);
+    background-image: url(Image/background-black.jpeg);
     background-size: cover;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     color: rgb(240, 167, 10);
 }
 
+
+/* Div para colocar as informações sobre a formação de infomatica*/
 .qq3 {
     color: rgba(201, 201, 201, 1);
     background-color: transparent;
@@ -161,5 +164,46 @@ ul li {
     left: 900px;
     top: 330px;
     text-align:left;
+
+}
+
+/* Div para colocar o pfd para download sobre o trabalho de Engenharia de Software*/
+.downloadpdf a {
+    background-color: white;
+    border: 3px solid rgb(0, 0, 0);
+    position: fixed;
+    left: 290px;
+    top: 350px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    padding: 10px 20px;
+
+}
+
+
+.acessarpdf a {
+    background-color: white;
+    border: 3px solid rgb(0, 0, 0);
+    position: fixed;
+    left: 630px;
+    top: 350px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    padding: 10px 20px;
+
+}
+
+.acessarpdf2 a {
+    background-color: white;
+    border: 3px solid rgb(0, 0, 0);
+    position: fixed;
+    left: 990px;
+    top: 350px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    padding: 10px 20px;
 
 }
