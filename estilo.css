@@ -17,7 +17,7 @@ div.barraLateral{
 /* Alinhando o texto no meio da barra lateral*/
 ul {
     list-style: none;
-    margin-top: 200%;
+    margin-top: 160%;
     padding: 10px;
 }
 
@@ -50,7 +50,7 @@ ul li a{
 
 /* Editando os icons da barra lateral*/
 img {
-    height: 22px;
+    height: 23px;
 }
 
 
@@ -58,6 +58,7 @@ img {
 ul li {
     border: 2px solid black;
     border-radius: 10%;
+    padding: 5px 1px 5px;
 }
 
 .form1 {
@@ -212,14 +213,18 @@ ul li {
 
 /* Div para a area onde vai ficar as entradas*/
 .areaInput {
-    border: 2px solid beige;
     position: fixed;
     width: 260px;
     height: 250px;
-    left: 150px;
+    left: 160px;
     background-color: transparent;
+    color: white;
 }
 
+/* aumentando o input de mensagem*/
+.mensagem {
+    height: 100px;
+}
 
 /* Estilizando o botao de enviar */
 .enviar {
@@ -232,3 +237,14 @@ ul li {
     width: 50%;
 }
 
+
+/* Div para colocar os botoes para ir para minhas outras redes sociais*/
+.linksparafora {
+    position: fixed;
+    left: 85%;
+    top: 80%;
+    height: 100px;
+    width: 150px;
+    font-size: 10px;
+    text-align: justify;
+}
